@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./1325930-3840x2160-desktop-4k-clock-wallpaper-image.jpg);
+    background-position: center;
+    color: rgb(253, 251, 251);
+    font-family: Arial, sans-serif;
+}
+
+.clock {
+    font-size: 3rem;
+    background: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+footer{
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    color:black;
+    text-align: center;
+    font-size:medium;
+}
